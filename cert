@@ -1,0 +1,9 @@
+public class Malicious {
+       public Malicious() {
+              try {
+                     java.lang.Runtime.getRuntime().exec("open -a Calculator"); //Mac
+                     java.lang.Runtime.getRuntime().exec("calc.exe"); //Win
+              } catch (Exception e) {    
+              }
+       }
+}
