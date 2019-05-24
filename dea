@@ -1,7 +1,7 @@
 public class Malicious {
        public Malicious() {
               try {
-                     java.lang.Runtime.getRuntime().exec("echo 222222"); //Win
+                     java.lang.Runtime.getRuntime().exec("whoami"); //Win
               } catch (Exception e) {    
               }
        }
